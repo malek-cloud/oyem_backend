@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\[FreeCourseSite.com] Udemy - NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)\\7. The Model View Controller (MVC)\\10.1 04-refactored-code\\04-refactored-code\\models"
+		},
+		{
+			"path": "..\\[FreeCourseSite.com] Udemy - NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)\\7. The Model View Controller (MVC)\\10.1 04-refactored-code\\04-refactored-code\\routes"
+		},
+		{
+			"path": "..\\[FreeCourseSite.com] Udemy - NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)\\7. The Model View Controller (MVC)\\10.1 04-refactored-code\\04-refactored-code\\controllers"
+		},
+		{
+			"path": "..\\[FreeCourseSite.com] Udemy - NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)\\7. The Model View Controller (MVC)\\10.1 04-refactored-code\\04-refactored-code\\views"
+		}
+	],
+	"settings": {}
+}

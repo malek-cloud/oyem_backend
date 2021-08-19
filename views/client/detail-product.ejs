@@ -1,0 +1,20 @@
+<%- include('../includes/head')%>
+<body>
+    <%- include('../includes/navigation') %>
+    <ul>
+        <li>
+            <h3>title : </h3>
+            <%= prod.title %>
+        </li>
+        <li>
+            <h3>description : </h3>
+            <%= prod.description %>
+        </li>
+        <li>
+            <h3>image : </h3>
+            <%= prod.imageUrl %>
+        </li>
+    </ul>
+    <a href="/edit-product/<%= prod._id%>?edit=true"> Modifier</a>
+</body>
+</html>

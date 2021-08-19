@@ -1,0 +1,19 @@
+
+<%- include('../includes/head.ejs')%>
+
+<body>
+    <%- include('../includes/navigation.ejs')%>
+    <main>
+        <form method="POST" , action= "<% if(editing){ %> /edit-product <%} else {%> /add-products <%}%>">
+            <input name="title" , type="text",  value= "<% if(editing){ %> <%= prod.title %> <%}%>" >
+            <input name="description" , type="text",  value= "<% if(editing){ %> <%= prod.description %> <%}%>">
+            <input name="imageUrl" , type="text",  value= "<% if(editing){ %> <%= prod.imageUrl %> <%}%>">
+            <% if(editing){ %> <input name="productId" , type="hidden",  value= " <%= prod._id %> "><%}%>
+            <button type="submit"> 
+                <% if(editing){ %> Modifier <% } else {%> Ajouter <%}%>
+                </button>
+        </form>
+    </main>
+</body>
+
+</html>
